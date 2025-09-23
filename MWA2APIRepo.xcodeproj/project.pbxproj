@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C058EF592DCD4984002775E0 /* RepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058EF582DCD4984002775E0 /* RepoProtocol.swift */; };
-		C058EF762DCF163B002775E0 /* MWA2APIRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058EF752DCF163B002775E0 /* MWA2APIRepo.swift */; };
+		C06DA9ED2E830FE200D2BA57 /* MWA2APIRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DA9EA2E830FE200D2BA57 /* MWA2APIRepo.swift */; };
+		C06DA9EE2E830FE200D2BA57 /* RepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DA9EB2E830FE200D2BA57 /* RepoProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C058EF3A2DCD488D002775E0 /* MWA2APIRepo.plugin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = MWA2APIRepo.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		C058EF582DCD4984002775E0 /* RepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoProtocol.swift; sourceTree = "<group>"; };
-		C058EF752DCF163B002775E0 /* MWA2APIRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWA2APIRepo.swift; sourceTree = "<group>"; };
+		C06DA9EA2E830FE200D2BA57 /* MWA2APIRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWA2APIRepo.swift; sourceTree = "<group>"; };
+		C06DA9EB2E830FE200D2BA57 /* RepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,8 +31,7 @@
 		C058EF312DCD488D002775E0 = {
 			isa = PBXGroup;
 			children = (
-				C058EF582DCD4984002775E0 /* RepoProtocol.swift */,
-				C058EF752DCF163B002775E0 /* MWA2APIRepo.swift */,
+				C06DA9EC2E830FE200D2BA57 /* MWA2APIRepo */,
 				C058EF3B2DCD488D002775E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +42,15 @@
 				C058EF3A2DCD488D002775E0 /* MWA2APIRepo.plugin */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C06DA9EC2E830FE200D2BA57 /* MWA2APIRepo */ = {
+			isa = PBXGroup;
+			children = (
+				C06DA9EA2E830FE200D2BA57 /* MWA2APIRepo.swift */,
+				C06DA9EB2E830FE200D2BA57 /* RepoProtocol.swift */,
+			);
+			path = MWA2APIRepo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,8 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C058EF592DCD4984002775E0 /* RepoProtocol.swift in Sources */,
-				C058EF762DCF163B002775E0 /* MWA2APIRepo.swift in Sources */,
+				C06DA9ED2E830FE200D2BA57 /* MWA2APIRepo.swift in Sources */,
+				C06DA9EE2E830FE200D2BA57 /* RepoProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +167,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -221,7 +229,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
